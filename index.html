@@ -13,13 +13,14 @@
             box-sizing: border-box;
         }
         
-        body {
-            font-family: herculanum;
+        .logoavatar{
+            background-color: white;
         }
-        
+
         .logoavatar img {
+            padding: 0.4rem;
             width: 100%;
-            height: 500px;
+            height: auto;
             object-fit: cover;
         }
         
@@ -32,7 +33,7 @@
         
         .navigation {
             flex-basis: 30%;
-            background-color: #3A5B98;
+            background-color: #042460;
             color: #FFF;
             padding: 1rem;
         }
@@ -59,7 +60,7 @@
         }
         
         .navigation a:hover {
-            background-color: #1E3A70;
+            background-color: #000000;
         }
         
         .navigation .roman {
@@ -81,7 +82,7 @@
         }
         
         footer {
-            background-color: #3A5B98;
+            background-color: #00153d;
             color: #FFF;
             text-align: center;
             padding: 1rem;
@@ -92,6 +93,10 @@
         @media (max-width: 768px) {
             .introduction {
                 padding: 1rem;
+            }
+
+            .logoavatar {
+                margin: 1rem;
             }
             
             .navigation {
@@ -108,7 +113,7 @@
 <body>
     <main>
         <div class="logoavatar">
-            <img src="./img/logo avatar.jfif" alt="logoavatar">
+            <img src="./img/logo_avatar.svg" alt="logoavatar">
         </div>
         <section class="introduction">
             <div class="navigation">
